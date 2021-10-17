@@ -1,12 +1,25 @@
 .model-container {
   background: #473834;
-  min-height: 590px;
+  min-height: 570px;
   width: 100%;
   border-radius: 10px;
-  text-align: center;
-  align-items: center;
+
+  padding: 10px 20px 20px 20px;
+  color: white;
 }
 
-.modelimg {
-  margin-top: 180px;
+.phase-text {
+  text-align: center;
+}
+.p-text {
+  font-size: clamp(7px, 3vw, 18px);
+}
+.title-text1 {
+  font-size: clamp(7px, 3vw, 18px);
+}
+.title-text2 {
+  font-size: clamp(7px, 3vw, 18px);
+}
+.title-text3 {
+  font-size: clamp(7px, 3vw, 18px);
 }

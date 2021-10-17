@@ -3,10 +3,9 @@ import "./model.css";
 import { Bar } from "react-chartjs-2";
 import PhaseContext from "../context/PhaseContext";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
+
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+
 
 function Model() {
 	const { phase, setphase, day, setday, flowContext, setflowContext } =
@@ -97,7 +96,7 @@ function Model() {
 		<div className="model-container">
 			<Bar data={data} options={options} />
 			<div className="phase-text mt-3">
-				<h5>
+				<h5 classname="p-text">
 					{" "}
 					{phase
 						? `You are currently in ${phase} phase.`
@@ -105,7 +104,7 @@ function Model() {
 				</h5>
 			</div>
 
-			<div className="phase-symptoms mt-4">
+			<div className="phase-symptoms mt-2">
 				<Card
 					style={{ borderRadius: "10px", backgroundColor: "#feda9c" }}
 				>
